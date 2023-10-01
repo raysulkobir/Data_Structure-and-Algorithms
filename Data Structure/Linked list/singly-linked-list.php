@@ -36,6 +36,15 @@ class SinglyLinkedList
         }
     }
 
+    public function insertFirst($data)
+    {
+        $newNode = new Node($data);
+
+        // Make the new node the new head of the list
+        $newNode->next = $this->head;
+        $this->head = $newNode;
+    }
+
     // Delete a node with a specific value
     public function delete($data)
     {
@@ -88,6 +97,8 @@ $linkedList = new SinglyLinkedList();
 $linkedList->insert(10);
 $linkedList->insert(20);
 $linkedList->insert(30);
+$linkedList->insert(50);
+$linkedList->insertFirst(5);
 
 $linkedList->display(); // Outputs: 10 -> 20 -> 30 -> null
 
