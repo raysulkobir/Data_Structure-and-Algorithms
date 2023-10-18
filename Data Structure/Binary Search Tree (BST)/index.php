@@ -107,7 +107,7 @@ class BinarySearchTree
 
 // Example usage:
 $bst = new BinarySearchTree();
-$bst->insert(11);
+$bst->insert(11); 
 $bst->insert(6);
 $bst->insert(8);
 $bst->insert(19);
@@ -131,7 +131,7 @@ echo "Post-order traversal: ";
 $bst->postOrderTraversal();
 echo "\n";
 
-$target = 7;
+$target = 10;
 $result = $bst->search($target);
 
 if ($result !== null) {
