@@ -1,0 +1,26 @@
+
+
+{
+    "name": "Rangs-Alpha",
+    "host": "36.255.70.152",
+    "protocol": "sftp",
+    "port": 9025,
+    "username": "sony",
+    "password": "t&4F#5@vBmA%j",
+    "remotePath": "/var/www/alpha/core",
+    "uploadOnSave": false
+}
+
+{
+    "name": "Rangs",
+    "host": "36.255.70.152",
+    "protocol": "sftp",
+    "port": 9025,
+    "username": "sony",
+    "password": "t&4F#5@vBmA%j",
+    "remotePath": "/var/www/core",
+    "uploadOnSave": false
+}
+
+
+
